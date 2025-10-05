@@ -77,6 +77,9 @@ index.html
       <p>Mon - Fri: 2pm - 10pm<br>Sat: 2pm - 11pm<br>Sun: 2pm - 9pm</p>
     </div>
   </section>
+   <center>
+  <h3>---- Designed and Developed by Mohamed Asarudeen ----</h3>
+</center>
 
 </body>
 </html>
@@ -379,10 +382,13 @@ urlpatterns = [
 ]
 ```
 # OUTPUT:
-azar/website/1.png
+![alt text](1.png)
 ![alt text](2.1.png)
-azar/website/3.png
-azar/website/4.png
-azar/website/5.png
+
+![alt text](3.png)
+![alt text](4.png)
+
+![alt text](5.png)
+
 # RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
