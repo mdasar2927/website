@@ -380,7 +380,7 @@ urlpatterns = [
 ```
 # OUTPUT:
 azar/website/1.png
-azar/website/2.png
+![alt text](2.1.png)
 azar/website/3.png
 azar/website/4.png
 azar/website/5.png
