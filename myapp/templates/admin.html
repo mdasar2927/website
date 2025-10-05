@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administration - Salamath Hotel</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+   
+
+    <nav class="navbar">
+      <a href="{% url 'index' %}">Home</a>
+      <a href="{% url 'menu' %}">Menu</a>
+      <a href="{% url 'admin' %}">Administration</a>
+      <a href="{% url 'about' %}">About</a>
+    </nav>
+    <center>
+          <h1>Administration</h1>
+    </center>
+    <center>
+    <section class="cards">
+      <div class="card">
+        <img src={% static "azar2.jpeg" %} alt="Staff 1 " width="50px" height="300px" >
+        <h3>Azar - CEO</h3>
+      </div>
+      <div class="card">
+        <img src={% static "abdul.jpeg" %} alt="Staff 2" width="50px" height="300px" >
+        <h3>Razik - Manager</h3>
+      </div>
+      <div class="card">
+        <img src={% static "johmson.jpeg" %} alt="Staff 3" width="50px" height="300px">
+        <h3>Johmson - Chef</h3>
+      </div>
+      <div class="card">
+        <img src={% static "deva.jpeg" %} alt="Staff 7" width="50px" height="300px">
+        <h3>Deva - Chef </h3>
+      </div>
+      <div class="card">
+        <img src={% static "salman.jpeg" %} alt="Staff 4" width="50px" height="300px">
+        <h3>Salman - Waiter</h3>
+      </div>
+      <div class="card">
+        <img src={% static "vgp.jpeg" %} alt="Staff 5" width="50px" height="300px">
+        <h3>Vishnu - Waiter</h3>
+      </div>
+      <div class="card">
+        <img src={% static "kumara.jpeg" %} alt="Staff 6" width="50px" height="300px">
+        <h3>Kumara - Reception</h3>
+      </div>
+    </section>
+    
+   
+    </center>
+</body>
+</html>

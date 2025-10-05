@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Salamath Hotel</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+   
+
+    <nav class="navbar">
+      <a href="{% url 'index' %}">Home</a>
+      <a href="{% url 'menu' %}">Menu</a>
+      <a href="{% url 'admin' %}">Administration</a>
+      <a href="{% url 'about' %}">About</a>
+    </nav>
+        <center>
+        <h1>About Salamath Hotel</h1>
+        <h4>Salamath Hotel is famous for its authentic Yemeni Mandhi, our signature dish, and other delicious meals.</h4>
+        <h4>We aim to provide a warm and memorable dining experience for all our guests.</h4>
+        <h4>Our team is dedicated to using fresh ingredients and delivering excellent service every time.</h4>
+        </center>
+        <h3>Contact Us</h3>
+        <p><strong>Address:</strong> 123 Main Road,SP Pattinam, Ramanathapuram dist 623406</p> 
+        <p><strong>Phone:</strong> +91 8015137032</p>
+        <p><strong>Email:</strong> info@salamathhotel.com</p>
+        <p><strong>Website:</strong> www.salamathhotel.com</p>
+     
+</body>
+</html>

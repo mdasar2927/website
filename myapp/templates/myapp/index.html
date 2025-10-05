@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salamath Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="logo">
+    <img src={% static "salamath.jpeg" %} alt="logo">
+    </center>
+  </div>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="admin.html">Administration</a>
+    <a href="about.html">About</a>
+
+  </nav>
+
+  <div class="banner">
+    <img src={% static "30.png" %} alt="30% Off This Weekend">
+  </div>
+
+  <section class="cards">
+    <div class="card">
+      <img src={% static "mandhi.jpg" %} alt="Our New Menu">
+      <h3>Our Signature Dish</h3>
+      <p>Yemeni Mandhi is the signature dish of Salamath Hotel, renowned for its fragrant basmati rice, tender slow-cooked meat, and aromatic blend of spices. Every bite delivers an authentic taste of traditional Yemeni cuisine, making it a favorite among our guests</p>
+    </div>
+
+    <div class="card">
+      <img src={% static "2.png" %} alt="Book a Table">
+      <h3>Book a Table</h3>
+      <p>Reserve your table at Salamath Hotel and enjoy an unforgettable dining experience. Whether it’s a family gathering or a special celebration, we ensure comfort, great service, and delicious meals every time</p>
+      
+    </div>
+
+    <div class="card">
+      <img src="3.png" alt="Opening Hours">
+      <h3>Opening Hours</h3>
+      <p>Mon - Fri: 2pm - 10pm<br>Sat: 2pm - 11pm<br>Sun: 2pm - 9pm</p>
+    </div>
+  </section>
+
+</body>
+</html>
